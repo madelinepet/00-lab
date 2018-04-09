@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I needed to convert it in the for loops declaring i. I also needed to change it for totalClicks and allProducts. The similarity is that the var needs to be redefined, so 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I liked template notation. It went well. I did not change the path concat because it made the images not appear because the path was different.
