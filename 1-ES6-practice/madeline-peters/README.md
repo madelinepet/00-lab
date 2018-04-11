@@ -22,7 +22,7 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-I needed to convert it in the for loops declaring i. I also needed to change it for totalClicks and allProducts. The similarity is that the var needs to be redefined, so 
+I needed to convert it back to let in the for loops declaring i. I also needed to change it for totalClicks and allProducts. The similarity is that the var needs to be redefined, so it cannot be defined using const.
 
 ---
 
