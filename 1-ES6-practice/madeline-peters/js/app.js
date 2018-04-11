@@ -14,7 +14,6 @@ const votes = [];
 
 function Product(name) {
   this.name = name;
-  //did not change the next concat because changing the path stopped the site from working
   this.path = `img/${name}.jpg`;
   this.votes = 0;
   this.views = 0;
